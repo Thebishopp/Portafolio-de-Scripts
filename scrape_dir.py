@@ -10,4 +10,4 @@ def extractor(path, namezip):
         for i in data:
             zipMe.write(i, compress_type=zipfile.ZIP_DEFLATED)
 
-extractor("?:\Datos Patente\?????\**/", "exata.zip" )
+extractor("?:\Datos Patente\?????\**/".csv, "exata.zip" )
