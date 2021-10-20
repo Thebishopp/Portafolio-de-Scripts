@@ -1,5 +1,3 @@
-### Script que permite comprimir en un ZIP de forma recursiva un directorio con la extensión de archivo necesaria.
-### Fue utilizado comprimir todos los *.csv para su posterior análisis en un dashboard
 import glob
 import zipfile
 import os
