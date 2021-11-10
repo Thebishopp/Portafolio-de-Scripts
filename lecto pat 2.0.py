@@ -35,7 +35,7 @@ def detect(tkndir, TXT, tknname): ### función detect###
             asd = open(TXT, "a")
             asd.write("\n" + date + ";" + dominio + ";" + dominio2)
             asd.close()
-            tb.send_message("-1001555555919", "{} Dominio: {} ha sido detectado por {}".format(hora, dominio, tknname))
+            tb.send_message("channel id", "{} Dominio: {} ha sido detectado por {}".format(hora, dominio, tknname))
             print(hora + ":" + dominio + " " + "ha sido detectado por:" + " " + tknname)
             time.sleep(120) #Delay de dos minutos tras una patente detectada, evita la reiteración de notificaciones
             continue
