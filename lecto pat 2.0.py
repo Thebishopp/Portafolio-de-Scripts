@@ -9,7 +9,7 @@ import telebot
 ###telebot###
 token =  #TOKEN de TeleBot#
 tb = telebot.TeleBot(token)
-#tb.send_message("-1001555555919", "test")
+#tb.send_message("Channel Id", "test")
 ### GENERADOR DE LISTA ###
 listxt = open("patentes.txt", "r") #Archivo .txt con las patentes buscandas
 domread = listxt.read()
