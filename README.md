@@ -14,4 +14,4 @@ de las capturas de los fotopatentes instaladas en el partido de Exaltación De L
 •Scrape_Dir: Permite comprimir en un ZIP de forma recursiva un directorio con la extensión de archivo necesaria. 
 Fue utilizado comprimir todos los archivos *.csv para su posterior análisis en un dashboard en PowerBI.
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Thebishopp)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Thebishopp)](https://github.com/anuraghazra/github-readme-stats, include_all_commits)
